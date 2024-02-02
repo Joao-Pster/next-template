@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+$global-font: 'Mulish', sans-serif;
+
+// Media Queries
+$mq: (
+  mobile: 391px,
+  tablet: 768px,
+  laptop: 1024px,
+  desktop: 1280px,
+  infinity: 1440px,
+);
+
+// Commom
+
+$common-colors: (
+  black: #000,
+  error: #ec3455,
+  green: #1faf61,
+  warning: #fdce55,
+);
+
+// Neutral Colors
+
+$neutral-colors: (
+  100: #fafbfc,
+  200: #f5f7fa,
+  300: #ebeff4,
+  400: #dfe1e6,
+  500: #c0c5cc,
+  600: #a4aab3,
+  700: #737880,
+  800: #45484d,
+  900: #222426,
+  1000: #0b0c0d,
+);
+
+// Backgroud
+
+$background-day: #f5f7fa;
+$background-night: #0b0c0d;
+$background-colors: (
+  day: $background-day,
+  night: $background-night,
+);
+
+// Project Colors
+
+$project-colors: (
+  primary-light: #efecf4,
+  primary: #452683,
+  primary-dark: #20094e,
+  secondary: #ea560e,
+);
